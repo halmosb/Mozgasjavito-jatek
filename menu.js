@@ -55,6 +55,6 @@ function nextActiveTypeButton(e){
 
 function selectType(mode){
     sessionStorage.setItem("type", mode);
-    console.log(mode);
+    //console.log(mode);
     window.location.href = "game.html";
 }

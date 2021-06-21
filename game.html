@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang ="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Játék</title>
+</head>
+<body>
+    <h1 id="title"></h1>
+    <div class="container">
+        <div id="buttons">
+            <button id="btnStart" class="active" type="button">Start</button>
+            <button id="btn0" class="invisible" type="button"></button>
+            <button id="btn1" class="invisible" type="button"></button>
+            <button id="btn2" class="invisible" type="button"></button>
+        </div>
+        <div id="media">
+            <canvas id="mediaCanvas"></canvas>
+        </div>
+        <div id="texts">
+            <p>Típus: <span id="typeTxt"></span></p>
+            <p>Nehézség: <span id="difficultyTxt"></span></p>
+            <p>Pont: <span id="scoreTxt"></span></p>
+        </div>
+    </div>
+    <div id="nextLevel" class="information invisible">
+        <p>Következő szint! <span id="nextLevelTxt"></span></p>
+    </div>
+    
+</body>
+    
+    <script src="main.js"></script>
+</html>

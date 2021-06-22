@@ -98,3 +98,6 @@ sivatag - teve
 szavanna - zsiráf
 esőerdő - kígyó
 sarkvidék - pingvin
+
+Hang:
+https://en.wikipedia.org/wiki/List_of_animal_sounds
